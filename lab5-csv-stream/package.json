@@ -1,0 +1,12 @@
+{
+  "name": "lab5-csv-stream",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "make:50": "node make-csv.mjs 50 input-50mb.csv",
+    "make:500": "node make-csv.mjs 500 input-500mb.csv",
+    "convert:50": "node index.mjs input-50mb.csv output-50mb.json",
+    "convert:500": "node index.mjs input-500mb.csv output-500mb.json"
+  }
+}
